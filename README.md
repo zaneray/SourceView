@@ -6,6 +6,13 @@ referenced in the plugin init.
 
 Clicking on this button will show and hide the source code of the tagged elements HTML.
 
+Classes for button css:
+.btn
+.showing
+
+Class for source view container:
+.sourceviewer
+
 Example:
 <div class="viewsource">
   ...
