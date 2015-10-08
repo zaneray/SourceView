@@ -3,8 +3,8 @@
 		$.fn.SourceCodeView = function(element){
 			this.each(function(){
 			
-				var button = $('<button></button>');
-				var container = $('<div></div>');
+				var button = $('<button>');
+				var container = $('<div>');
 
 				button.html('View Source Code');
 				button.addClass('btn');
