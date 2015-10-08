@@ -1,7 +1,7 @@
 {
     "name": "SourceView",
     "version": "0.0.1"
-    "main": "source-view-dist.js",
+    "main": "source-view.js",
     "ignore": [
         "source",
         "spec",
@@ -10,7 +10,6 @@
         ".jshintignore",
         ".jshintrc",
         "bower.json",
-        "gruntfile.js",
         "package.json",
         "README.md"
     ],
