@@ -3,13 +3,13 @@
 		$.fn.SourceCodeView = function(element){
 			this.each(function(){
 			
-				var button = $('<button></button');
+				var button = $('<button></button>');
 				var container = $('<div></div>');
 
 				button.html('View Source Code');
 				button.addClass('btn');
 
-				container.html($(this).html());
+				container.html("<xmp>" + $(this).html() + "</xmp>");
 				container.addClass('sourceviewer');
 
 				$(this).after(button);
