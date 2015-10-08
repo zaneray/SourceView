@@ -1,7 +1,7 @@
 {
     "name": "SourceView",
     "version": "0.0.1"
-    "main": "dist/sourceview.js",
+    "main": "source-view-dist.js",
     "ignore": [
         "source",
         "spec",
