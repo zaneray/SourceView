@@ -1,19 +1,5 @@
 {
-    "name": "SourceView"
-    "version": "0.0.2"
+    "name": "SourceView",
+    "version": "0.0.2",
     "main": "source-view.js"
-    "ignore": [
-        "source",
-        "spec",
-        ".bowerrc",
-        ".gitignore",
-        ".jshintignore",
-        ".jshintrc",
-        "bower.json",
-        "package.json",
-        "README.md"
-    ],
-    "dependencies": {
-        "jquery": ">=1.10.2"
-    }
 }
