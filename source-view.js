@@ -6,7 +6,7 @@
 			var container = $('<div>');
 
 			button.html('View Source Code');
-			button.addClass('btn');
+			button.addClass('viewbtn');
 
 			container.html("<xmp>" + $(this).html() + "</xmp>");
 			container.addClass('sourceviewer');
