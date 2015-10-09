@@ -7,6 +7,7 @@
 
 			button.html('View Source Code');
 			button.addClass('viewbtn');
+			button.attr('type', 'button');
 
 			container.html("<xmp>" + $(this).html() + "</xmp>");
 			container.addClass('sourceviewer');
