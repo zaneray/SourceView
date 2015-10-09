@@ -1,18 +1,24 @@
+// Source Viewer
 .sourceviewer {
   display: none;
-	background-color: #EEE;
-	width: 100%;
-	padding: 10px;
-	-moz-box-shadow:    inset 0 0 10px #999999;
+  background-color: #EEE;
+  width: 100%;
+  padding: 10px;
+  -moz-box-shadow:    inset 0 0 10px #999999;
   -webkit-box-shadow: inset 0 0 10px #999999;
   box-shadow:         inset 0 0 10px #999999;
   overflow: auto;
+  font-size: 10px;
+  line-height: 10px;
 }
 
 .viewbtn {
   font-size: 10px;
   color: black;
   background-color: #EEEEEE;
+  border: 1px solid #333;
+  margin-top: 10px;
+  outline: none;
 }
 
 .showing {
