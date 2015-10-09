@@ -1,8 +1,4 @@
 {
     "name": "SourceView",
-    "version": "0.0.2",
-    "dependencies": {
-        "jquery": "~1.10.2"
-    },
-    "devDependencies": {}
+    "version": "0.0.2"
 }
