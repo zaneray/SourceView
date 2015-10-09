@@ -8,7 +8,7 @@ Clicking on this button will show and hide the source code of the tagged element
 
 Classes for button css:
 ```
-.btn
+.viewbtn
 .showing
 ```
 Class for source view container:
