@@ -1,6 +1,6 @@
 {
-    "name": "YourAwesomePackageName",
-    "version": "0.0.1",
+    "name": "SourceView",
+    "version": "0.0.2",
     "main": "source-view.js",
     "ignore": [
         "bower.json",
