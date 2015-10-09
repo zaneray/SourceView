@@ -1,0 +1,18 @@
+.sourviewer {
+  display: none;
+	background-color: #EEE;
+	width: 500px;
+	padding: 10px;
+	-moz-box-shadow:    inset 0 0 10px #999999;
+  -webkit-box-shadow: inset 0 0 10px #999999;
+  box-shadow:         inset 0 0 10px #999999;
+}
+
+.viewbutton {
+  font-size: 10px;
+}
+
+.showing {
+  background-color: red;
+  color: white;
+}
