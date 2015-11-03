@@ -24,7 +24,7 @@
 					$(this).html('Hide Source Code');
 				}
 
-				$(this).next().slideToggle( "slow", function() {
+				$(this).next().slideToggle( 300, function() {
     			// nothing for now
   			});
 			});
