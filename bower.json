@@ -1,6 +1,6 @@
 {
     "name": "SourceView",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "main": "source-view.js",
     "dependencies": {
       "jquery": ">=1.10.2"

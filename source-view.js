@@ -2,26 +2,23 @@
 	$.fn.SourceCodeView = function(element){
 		this.each(function(){
 		
-			var button = $('<button>');
-			var container = $('<div>');
+			var button = $('<button class="viewbtn" type="button">View Source Code</button>');
+			var container = $('<div class="sourceviewer">');
+			
+			var sourceCode = $(this).html();
 
-			button.html('View Source Code');
-			button.addClass('viewbtn');
-			button.attr('type', 'button');
+			sourceCode = sourceCode.trim();
 
-			container.html("<xmp>" + $(this).html() + "</xmp>");
-			container.addClass('sourceviewer');
+			container.html("<xmp>" + sourceCode + "</xmp>");
 
 			$(this).after(button);
 			button.after(container);
 
 			button.on('click', function(){
-				if ($(this).hasClass('showing')){
-					$(this).removeClass('showing');
-					$(this).html('View Source Code');
+				if (button.hasClass('showing')){
+					button.removeClass('showing').html('View Source Code');
 				} else {
-					$(this).addClass('showing');
-					$(this).html('Hide Source Code');
+					button.addClass('showing').html('Hide Source Code');
 				}
 
 				$(this).next().slideToggle( 300, function() {
